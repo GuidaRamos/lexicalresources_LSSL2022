@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Larousse de poche</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Librairie Larousse, Paris</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>1954, by AUGÉ, GILLON, HOLLER-LAROUSSE, MOREAU ET CIE</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <entry>
+            <form type="lemma">
+               <orth>mouche</orth>
+            </form>
+            <gramGrp>
+               <pos>n<pc>.</pc></pos>
+               <gen>f<pc>.</pc></gen>
+            </gramGrp>
+            <sense n="1"><def>Nom de divers insects<pc>.</pc></def></sense>
+            <sense n="2"><usg style="Figurative"><label>Fig<pc>.</pc></label></usg><def>Agent secret de la police<pc>.</pc></def></sense>
+            <sense n="3"><cit type="example"><quote>Fine mouche</quote></cit><pc>,</pc><def>personne rusée<pc>.</pc></def></sense>
+            <sense n="4"><cit type="example"><quote>Prendre la mouche</quote></cit><pc>,</pc><def>se fâcher<pc>.</pc></def></sense>
+            <sense n="5"><def>Petite rondelle de taffetas noir que l'on colle sur le visage<pc>.</pc></def></sense>
+            <sense n="6"><def>Morceau de peau dont on garnit le fleuret<pc>.</pc></def></sense>
+            <sense n="7"><def>Centre d'une cible<pc>.</pc></def></sense>
+            <sense n="8"><def>Petite barbiche</def></sense>              
+         </entry>
+       </body>
+  </text>
+</TEI>
