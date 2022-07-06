@@ -9,10 +9,13 @@
             <title>Larousse de poche</title>
          </titleStmt>
          <publicationStmt>
-            <p>Librairie Larousse, Paris</p>
-         </publicationStmt>
+            <publisher>Larousse librairie</publisher>
+            <availability><licence>CC by</licence></availability>            
+         </publicationStmt>                           <!-- your publication statement. Tell what people can do with it -->       
          <sourceDesc>
-            <p>1954, by AUGÉ, GILLON, HOLLER-LAROUSSE, MOREAU ET CIE</p>
+            <bibl><date>1954</date>          
+            <author>AUGÉ, GILLON, HOLLER-LAROUSSE, MOREAU ET CIE</author>
+            </bibl>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
@@ -28,12 +31,13 @@
             </gramGrp>
             <sense n="1"><def>Nom de divers insects<pc>.</pc></def></sense>
             <sense n="2"><usg style="Figurative"><label>Fig<pc>.</pc></label></usg><def>Agent secret de la police<pc>.</pc></def></sense>
-            <sense n="3"><cit type="example"><quote>Fine mouche</quote></cit><pc>,</pc><def>personne rusée<pc>.</pc></def></sense>
-            <sense n="4"><cit type="example"><quote>Prendre la mouche</quote></cit><pc>,</pc><def>se fâcher<pc>.</pc></def></sense>
-            <sense n="5"><def>Petite rondelle de taffetas noir que l'on colle sur le visage<pc>.</pc></def></sense>
-            <sense n="6"><def>Morceau de peau dont on garnit le fleuret<pc>.</pc></def></sense>
-            <sense n="7"><def>Centre d'une cible<pc>.</pc></def></sense>
-            <sense n="8"><def>Petite barbiche</def></sense>              
+            <entry type="relatedEntry" n="1"><form>Fine mouche</form><pc>,</pc><sense><gloss>personne rusée</gloss></sense><pc>.</pc>
+            </entry>
+            <entry type="relatedEntry" n="2"><form>Prendre la mouche</form><pc>,</pc><sense><gloss>se fâcher<pc>.</pc></gloss></sense></entry>
+            <sense n="3"><def>Petite rondelle de taffetas noir que l'on colle sur le visage<pc>.</pc></def></sense>
+            <sense n="4"><def>Morceau de peau dont on garnit le fleuret<pc>.</pc></def></sense>
+            <sense n="5"><def>Centre d'une cible<pc>.</pc></def></sense>
+            <sense n="6"><def>Petite barbiche</def></sense>              
          </entry>
        </body>
   </text>
