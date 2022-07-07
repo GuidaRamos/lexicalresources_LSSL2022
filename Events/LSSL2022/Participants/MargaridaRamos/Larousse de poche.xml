@@ -2,6 +2,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teste1_LSSL2022.xsl"?>
+<?xml-stylesheet type="text/xsl" href="teste1_cherry%20picking_LSSL2022.xsl"?>
+<?xml-stylesheet type="text/xsl" href="teste1_cherry%20picking_LSSL2022.xsl"?>
+<?xml-stylesheet type="text/xsl" href="teste1_cherry%20picking_LSSL2022.xsl"?>
+<?xml-stylesheet type="text/xsl" href="teste1_cherry%20picking_LSSL2022.xsl"?>
+<?xml-stylesheet type="text/xsl" href="teste1_LSSL2022.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -10,12 +16,14 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Larousse librairie</publisher>
-            <availability><licence>CC by</licence></availability>            
+            <date>1954</date>
+            <idno>????</idno>
+            <availability><ab></ab></availability>
          </publicationStmt>                           <!-- your publication statement. Tell what people can do with it -->       
          <sourceDesc>
-            <bibl><date>1954</date>          
+            <bibl>          
             <author>AUGÉ, GILLON, HOLLER-LAROUSSE, MOREAU ET CIE</author>
-            </bibl>
+            </bibl>            
          </sourceDesc>
       </fileDesc>
   </teiHeader>
@@ -30,13 +38,13 @@
                <gen>f<pc>.</pc></gen>
             </gramGrp>
             <sense n="1"><def>Nom de divers insects<pc>.</pc></def></sense>
-            <sense n="2"><usg style="Figurative"><label>Fig<pc>.</pc></label></usg><def>Agent secret de la police<pc>.</pc></def></sense>
-            <entry type="relatedEntry" n="1"><form>Fine mouche</form><pc>,</pc><sense><gloss>personne rusée</gloss></sense><pc>.</pc>
-            </entry>
-            <entry type="relatedEntry" n="2"><form>Prendre la mouche</form><pc>,</pc><sense><gloss>se fâcher<pc>.</pc></gloss></sense></entry>
-            <sense n="3"><def>Petite rondelle de taffetas noir que l'on colle sur le visage<pc>.</pc></def></sense>
-            <sense n="4"><def>Morceau de peau dont on garnit le fleuret<pc>.</pc></def></sense>
-            <sense n="5"><def>Centre d'une cible<pc>.</pc></def></sense>
+            <sense n="2"><usg style="Figurative"><label><hi style="italic">Fig</hi><pc>. </pc></label></usg><lb/>
+            <def>Agent secret de la police<pc>.</pc></def></sense>
+            <entry type="relatedEntry"><form type="idiom"><orth><hi style="italic">Fine mouche</hi></orth></form><pc>, </pc><sense><gloss>per<lb/>sonne rusée</gloss></sense><pc>.</pc></entry>
+            <entry type="relatedEntry"><form type="collocation"><orth><hi style="italic">Prendre la mouche</hi></orth></form><pc>, </pc><sense><gloss>se fâcher<pc>.</pc></gloss></sense></entry><lb/>
+            <sense n="3"><def>Petite rondelle de taffetas noir que l'on <lb/>colle sur le visage<pc>.</pc></def></sense>
+            <sense n="4"><def>Morceau de peau dont <lb/>on garnit le fleuret<pc>.</pc></def></sense>
+            <sense n="5"><def>Centre d'une cible<pc>.</pc></def></sense><lb/>
             <sense n="6"><def>Petite barbiche</def></sense>              
          </entry>
        </body>
